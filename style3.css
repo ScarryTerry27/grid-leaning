@@ -1,0 +1,62 @@
+.conteiner {
+  display: grid;
+  grid-template-areas:
+    "area1 area1 area1 area1 area1 area1 area1 area1"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area3 area3 area3 area3 area3 area4 area4"
+    "area2 area5 area5 area5 area5 area5 area5 area5";
+  grid-gap: 30px;
+  font-size: 64px;
+}
+
+.conteiner > div {
+  background-color: aqua;
+}
+
+.conteiner > :nth-child(2n) {
+  background-color: red;
+}
+
+.conteiner > .item1 {
+  grid-area: area1;
+  color: white;
+  background-color: blueviolet;
+}
+
+.conteiner > .item2 {
+  grid-area: area2;
+  color: white;
+  background-color: rgb(43, 226, 58);
+}
+
+.conteiner > .item3 {
+  grid-area: area3;
+  color: white;
+  background-color: rgb(226, 95, 43);
+}
+
+.conteiner > .item4 {
+  grid-area: area4;
+  color: white;
+  background-color: rgb(92, 43, 226);
+}
+
+.conteiner > .item5 {
+  grid-area: area5;
+  color: white;
+  background-color: rgb(226, 43, 67);
+}
