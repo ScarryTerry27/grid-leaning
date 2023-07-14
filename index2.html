@@ -4,10 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style_form.css" />
   </head>
   <body>
+    <div class="cont">
+      <a href="#">Lorem.</a>
+      <a href="#">Lorem, ipsum.</a>
+      <a href="#">&#128519;</a>
+      <a href="#">&#128519;</a>
+    </div>
     <form action="mail.php" method="post">
-      <input type="text" placeholder="Имя" name="user_name" />
+      <div>
+        <label for="user_name">Меня зовут</label>
+        <input
+          type="text"
+          id="#user_name"
+          placeholder="Имя"
+          name="user_name"
+          required
+        />
+      </div>
       <input type="datetime" name="date" placeholder="Дата" />
       <input type="tel" name="phone_number" placeholder="Номер телефона" />
       <input type="email" name="email" placeholder="Электронная почта" />
@@ -25,5 +41,18 @@
       <input type="checkbox" />
       <input type="submit" placeholder="Отправить" />
     </form>
+    <!-- <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/D5eXOqrQHoM"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe> -->
+    <div class="dialog">
+      <p>привет&#128519;</p>
+      <p>Привет &#128512;</p>
+    </div>
   </body>
 </html>

@@ -1,0 +1,54 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+  background-color: rgb(218, 30, 186);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+form > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+input[type="submit"] {
+  background-color: rgb(0, 255, 13);
+}
+
+input[type="text"] {
+  background-color: beige;
+}
+
+input[type="email"] {
+  background-color: rgb(7, 253, 7);
+}
+
+input[type="tel"] {
+  background-color: red;
+}
+
+input[type="date"] {
+  box-shadow: 3px 3px 3px grey;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.dialog {
+  margin: 0 auto;
+  width: 100px;
+  background-color: rgba(128, 128, 128, 0.61);
+  color: white;
+}
+
+.cont {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 50px;
+}
